@@ -22,11 +22,17 @@ The framework follows a BDD approach using Cucumber and implements the Page Obje
 
 src
 └── test
+|
 ├── java
+| |
 │ ├── pages # Page Object Model
+| |
 │ ├── stepdefinitions # Cucumber step definitions
+| |
 │ └── runners # Test runners and configuration
+|
 └── resources
+|
 └── features # Gherkin feature files
 
 ---
