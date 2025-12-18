@@ -1,9 +1,9 @@
 package runners;
 
-import pages.BasePage;
+import io.cucumber.junit.platform.engine.Cucumber;
 
+@Cucumber
 public class TestRunner {
-    public static void cleanBrowser() {
-        BasePage.closeBrowser();
-    }
+
+    
 }
